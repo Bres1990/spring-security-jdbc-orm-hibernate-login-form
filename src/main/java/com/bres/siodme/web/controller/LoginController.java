@@ -60,38 +60,11 @@ public class LoginController {
         userService.save(userForm);
         securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());
 
-//        Set<Role> set = userForm.getRoles();
-//        for (Iterator<Role> it = set.iterator(); it.hasNext(); ) {
-//            Role r = it.next();
-//            if ("ROLE_ADMIN".equals(r.getName()))
-//            {
-//                System.out.print("1");
-//                return "admin";
-//            }
-//        }
-//
-//        if (userForm.getUsername().contains("ADMIN")) {
-//            System.out.print("2");
-//            return "admin";
-//        }
-
         return "redirect:/welcome";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login(Model model, String error, String logout) {
-
-        //Principal principal = (Principal) SecurityContextHolder.getContext().getAuthentication().getDetails().
-
-//        User user = userService.findByUsername(securityService.findLoggedInUsername());
-//        Set<Role> set = user.getRoles();
-//        for (Iterator<Role> it = set.iterator(); it.hasNext(); ) {
-//            Role r = it.next();
-//            if ("ROLE_ADMIN".equals(r.getName()))
-//            {
-//                return "redirect:/admin";
-//            }
-//        }
 
         if (error != null)
             model.addAttribute("error", "Your username and password is invalid.");
@@ -102,7 +75,6 @@ public class LoginController {
         return "login";
     }
 
-    //@PreAuthorize("hasRole('ROLE_USER')")
     @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
     public String welcome() {
 
@@ -110,7 +82,6 @@ public class LoginController {
         return "welcome";
     }
 
-    //@PreAuthorize("hasRole('ROLE_ADMIN')")
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
     public String admin() {
         return "admin";
