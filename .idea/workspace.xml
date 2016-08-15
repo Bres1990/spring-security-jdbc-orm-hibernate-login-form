@@ -45,7 +45,7 @@
       <file leaf-file-name="SpringWebConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.74277455">
+            <state vertical-scroll-proportion="0.4682081">
               <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
               <folding />
             </state>
@@ -1555,7 +1555,7 @@
       <workItem from="1469797439600" duration="61000" />
       <workItem from="1469797541610" duration="26843000" />
       <workItem from="1469973788638" duration="56454000" />
-      <workItem from="1470395608677" duration="89974000" />
+      <workItem from="1470395608677" duration="90525000" />
     </task>
     <servers />
   </component>
@@ -1592,7 +1592,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266819000" />
+    <option name="totallyTimeSpent" value="267370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1605,7 +1605,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49535194" sideWeight="0.51028275" order="7" side_tool="true" content_ui="tabs" />
@@ -1649,6 +1649,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2082,7 +2087,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.74277455">
+        <state vertical-scroll-proportion="0.4682081">
           <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding />
         </state>
