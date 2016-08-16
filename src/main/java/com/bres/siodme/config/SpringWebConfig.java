@@ -32,7 +32,7 @@ import javax.sql.DataSource;
 @EnableSpringDataWebSupport
 @EnableJpaRepositories("com.bres.siodme.web.repository")
 @EnableTransactionManagement
-@PropertySource("classpath:validation.properties")
+@PropertySource("classpath:application.properties")
 @Configuration
 @ComponentScan("com.bres.siodme")
 public class SpringWebConfig extends WebMvcConfigurerAdapter {
@@ -53,12 +53,12 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
     }
 
     @Bean
-    public DataSource dataSource() {
+    public static DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(env.getProperty("jdbc.driverClassName"));
         dataSource.setUrl(env.getProperty("jdbc.url"));
-        dataSource.setUsername(env.getProperty("jdbc.user"));
-        dataSource.setPassword(env.getProperty("jdbc.pass"));
+        dataSource.setUsername(env.getProperty("jdbc.username"));
+        dataSource.setPassword(env.getProperty("jdbc.password"));
 
         return dataSource;
     }
@@ -76,13 +76,13 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
         return entityManagerFactory;
     }
 
-    @Bean
-    JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
-        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
-        jpaTransactionManager.setEntityManagerFactory(entityManagerFactory);
-
-        return jpaTransactionManager;
-    }
+//    @Bean
+//    JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
+//        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
+//        jpaTransactionManager.setEntityManagerFactory(entityManagerFactory);
+//
+//        return jpaTransactionManager;
+//    }
 
     @Bean
     JpaVendorAdapter jpaVendorAdapter() {

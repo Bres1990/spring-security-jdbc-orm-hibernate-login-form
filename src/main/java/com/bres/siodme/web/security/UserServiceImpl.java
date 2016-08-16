@@ -4,6 +4,7 @@ import com.bres.siodme.web.model.User;
 import com.bres.siodme.web.repository.RoleRepository;
 import com.bres.siodme.web.repository.UserRepository;
 import com.bres.siodme.web.service.UserService;
+import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,8 @@ public class UserServiceImpl implements UserService {
     private RoleRepository roleRepository;
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
+    //@Autowired
+    //private SessionFactory sessionFactory;
 
 
     @Override
@@ -35,6 +38,10 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findByUsername(String username) {
+
+        //User user = new User();
+        //user = sessionFactory.getCurrentSession().createQuery("from User where username=?").setParameter(0, username).list();
+
         return userRepository.findByUsername(username);
     }
 }

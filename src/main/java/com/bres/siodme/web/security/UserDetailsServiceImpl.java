@@ -3,6 +3,7 @@ package com.bres.siodme.web.security;
 import com.bres.siodme.web.model.Role;
 import com.bres.siodme.web.model.User;
 import com.bres.siodme.web.repository.UserRepository;
+import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -23,6 +24,8 @@ import java.util.stream.Collectors;
 public class UserDetailsServiceImpl implements UserDetailsService{
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private SessionFactory sessionFactory;
 
     @Override
     @Transactional(readOnly = true)

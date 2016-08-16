@@ -3,6 +3,7 @@ package com.bres.siodme.web.validator;
 import com.bres.siodme.web.model.User;
 import com.bres.siodme.web.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;

@@ -7,6 +7,8 @@ import com.bres.siodme.web.service.SecurityService;
 import com.bres.siodme.web.service.UserService;
 import com.mysql.jdbc.log.Log;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -29,6 +31,7 @@ import java.util.Set;
  */
 
 @Controller
+@EnableAspectJAutoProxy(proxyTargetClass = true)
 public class LoginController {
     @Autowired
     private UserService userService;
@@ -36,7 +39,7 @@ public class LoginController {
     @Autowired
     private SecurityService securityService;
 
-    @Autowired
+    @Autowired //@Qualifier("userValidator")
     private UserValidator userValidator;
 
     @Autowired
@@ -77,8 +80,6 @@ public class LoginController {
 
     @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
     public String welcome() {
-
-
         return "welcome";
     }
 
