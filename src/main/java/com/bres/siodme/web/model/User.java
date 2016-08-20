@@ -1,9 +1,9 @@
 package com.bres.siodme.web.model;
 
-import com.bres.siodme.web.model.Role;
-import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.util.Set;
 
 /**
@@ -15,9 +15,16 @@ import java.util.Set;
 public class User {
     private Long id;
 
+
+    @Size(min=6, max=32, message="Username must fit between 6 and 32 letters") @NotEmpty
+    @Column
     private String username;
+
+    @Size(min=8, max=32, message="Password must fit between 8 and 32 letters") @NotEmpty
     private String password;
+
     private String passwordConfirm;
+
     private Set<Role> roles;
 
     @Id
@@ -55,7 +62,7 @@ public class User {
         this.passwordConfirm = passwordConfirm;
     }
 
-    @ManyToMany
+    @ManyToMany//(fetch = FetchType.LAZY)
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     public Set<Role> getRoles() {
         return roles;

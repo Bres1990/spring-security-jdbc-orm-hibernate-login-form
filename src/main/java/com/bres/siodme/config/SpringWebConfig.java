@@ -5,10 +5,12 @@ package com.bres.siodme.config;
  */
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.web.config.EnableSpringDataWebSupport;
@@ -17,6 +19,7 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.Database;
+import org.springframework.orm.jpa.vendor.HibernateJpaDialect;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.ViewResolver;
@@ -53,7 +56,7 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
     }
 
     @Bean
-    public static DataSource dataSource() {
+    public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(env.getProperty("jdbc.driverClassName"));
         dataSource.setUrl(env.getProperty("jdbc.url"));
@@ -68,21 +71,20 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
 
         LocalContainerEntityManagerFactoryBean entityManagerFactory = new LocalContainerEntityManagerFactoryBean();
         entityManagerFactory.setDataSource(dataSource());
-
+        entityManagerFactory.setJpaDialect(jpaDialect());
         entityManagerFactory.setJpaVendorAdapter(jpaVendorAdapter());
-
         entityManagerFactory.setPackagesToScan("com.bres.siodme");
 
         return entityManagerFactory;
     }
 
-//    @Bean
-//    JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
-//        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
-//        jpaTransactionManager.setEntityManagerFactory(entityManagerFactory);
-//
-//        return jpaTransactionManager;
-//    }
+    @Bean
+    JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
+        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
+        jpaTransactionManager.setEntityManagerFactory(entityManagerFactory);
+
+        return jpaTransactionManager;
+    }
 
     @Bean
     JpaVendorAdapter jpaVendorAdapter() {
@@ -94,6 +96,18 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
         return jpaVendorAdapter;
     }
 
+    @Bean
+    HibernateJpaDialect jpaDialect() {
+        HibernateJpaDialect jpaDialect = new HibernateJpaDialect();
 
+        return jpaDialect;
+    }
+
+    @Bean
+    public MessageSource messageSource() {
+        ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
+        messageSource.setBasename("validation");
+        return messageSource;
+    }
 
 }

@@ -1,17 +1,10 @@
 package com.bres.siodme.web.controller;
 
-import com.bres.siodme.web.model.Role;
 import com.bres.siodme.web.model.User;
-import com.bres.siodme.web.validator.UserValidator;
 import com.bres.siodme.web.service.SecurityService;
 import com.bres.siodme.web.service.UserService;
-import com.mysql.jdbc.log.Log;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,9 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
-import java.security.Principal;
-import java.util.Iterator;
-import java.util.Set;
 
 
 /**
@@ -39,8 +29,8 @@ public class LoginController {
     @Autowired
     private SecurityService securityService;
 
-    @Autowired //@Qualifier("userValidator")
-    private UserValidator userValidator;
+//    @Autowired //@Qualifier("userValidator")
+//    private UserValidator userValidator;
 
     @Autowired
     private UserDetailsService userDetails;
@@ -54,7 +44,7 @@ public class LoginController {
 
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
     public String registration(@ModelAttribute("userForm") @Valid User userForm, BindingResult bindingResult) {
-        userValidator.validate(userForm, bindingResult);
+        //userValidator.validate(userForm, bindingResult);
 
         if (bindingResult.hasErrors()) {
             return "registration";
