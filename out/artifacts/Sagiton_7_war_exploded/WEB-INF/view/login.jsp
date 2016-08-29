@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 <%--
   Created by IntelliJ IDEA.
   User: Adam

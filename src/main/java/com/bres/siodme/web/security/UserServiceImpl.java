@@ -1,5 +1,6 @@
 package com.bres.siodme.web.security;
 
+import com.bres.siodme.web.model.Role;
 import com.bres.siodme.web.model.User;
 import com.bres.siodme.web.repository.RoleRepository;
 import com.bres.siodme.web.repository.UserRepository;
@@ -8,8 +9,10 @@ import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.util.HashSet;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -26,13 +29,19 @@ public class UserServiceImpl implements UserService {
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
 
+
     @Override
+    @Transactional
+    /**
+     * Newly registered users may receive only User Privileges.
+     * Admin privileges are awarded by the Admins only
+     */
     public void save(User user) throws ConstraintViolationException {
-        if (userRepository.findByUsername(user.getUsername()) == null) {
-            user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
-            user.setRoles(new HashSet<>(roleRepository.findAll()));
-            userRepository.save(user);
-        }
+        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+        List<Role> list = new ArrayList<>();
+        list.add(roleRepository.findByName("ROLE_USER"));
+        user.setRoles(list);
+        userRepository.save(user);
     }
 
     @Override

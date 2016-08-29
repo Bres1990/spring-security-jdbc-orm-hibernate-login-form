@@ -4,7 +4,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
-import java.util.Set;
+import java.util.List;
 
 /**
  * Created by Adam on 2016-07-29.
@@ -20,12 +20,12 @@ public class User {
     @Column
     private String username;
 
-    @Size(min=8, max=32, message="Password must fit between 8 and 32 letters") @NotEmpty
+    @Size(min=8, max=60, message="Password must fit between 8 and 60 letters") @NotEmpty
     private String password;
 
     private String passwordConfirm;
 
-    private Set<Role> roles;
+    private List<Role> roles;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -62,16 +62,15 @@ public class User {
         this.passwordConfirm = passwordConfirm;
     }
 
-    @ManyToMany//(fetch = FetchType.LAZY)
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
-    public Set<Role> getRoles() {
+    public List<Role> getRoles() {
         return roles;
     }
 
-    public void setRoles(Set<Role> roles) {
+    public void setRoles(List<Role> roles) {
         this.roles = roles;
     }
-
 
     @Override
     public String toString() {

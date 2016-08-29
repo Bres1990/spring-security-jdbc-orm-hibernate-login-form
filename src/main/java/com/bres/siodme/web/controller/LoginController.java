@@ -1,11 +1,11 @@
 package com.bres.siodme.web.controller;
 
 import com.bres.siodme.web.model.User;
+import com.bres.siodme.web.repository.UserRepository;
 import com.bres.siodme.web.service.SecurityService;
 import com.bres.siodme.web.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -29,11 +29,7 @@ public class LoginController {
     @Autowired
     private SecurityService securityService;
 
-//    @Autowired //@Qualifier("userValidator")
-//    private UserValidator userValidator;
-
-    @Autowired
-    private UserDetailsService userDetails;
+    @Autowired UserRepository userRepository;
 
     @RequestMapping(value = "/registration", method = RequestMethod.GET)
     public String registration(Model model) {
@@ -44,14 +40,16 @@ public class LoginController {
 
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
     public String registration(@ModelAttribute("userForm") @Valid User userForm, BindingResult bindingResult) {
-        //userValidator.validate(userForm, bindingResult);
 
         if (bindingResult.hasErrors()) {
+
             return "registration";
         }
 
-        userService.save(userForm);
-        securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());
+        if (userRepository.findByUsername(userForm.getUsername()) == null) { // if a user of that name doesn't exist yet
+            userService.save(userForm);
+            securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());
+        }
 
         return "redirect:/welcome";
     }

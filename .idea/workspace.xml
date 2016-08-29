@@ -13,91 +13,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0609ed-bd0f-4996-8369-c00a797bc407" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_4_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/validator/UserValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/validator/UserValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/resources/db.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/resources/test-data.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/resources/validation.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/validator/UserValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/validator/UserValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources/db.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources/test-data.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/resources/validation.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/META-INF/context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/view/loginView.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/appconfig-data.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/appconfig-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/appconfig-root.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/appconfig-security.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/web.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/config/RootConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/config/RootConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/config/SecurityConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/config/SpringWebConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/config/SpringWebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/config/SpringWebMvcInitializer.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/config/SpringWebMvcInitializer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/repository/RoleRepository.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/repository/RoleRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/security/UserDetailsServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/security/UserDetailsServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/security/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/com/bres/siodme/web/security/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/config/RootConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/config/RootConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/config/SecurityConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/config/SpringWebConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/config/SpringWebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/config/SpringWebMvcInitializer.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/config/SpringWebMvcInitializer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/repository/RoleRepository.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/repository/RoleRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/security/UserDetailsServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/security/UserDetailsServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/security/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/com/bres/siodme/web/security/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/config/RootConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/config/RootConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/config/SecurityConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/config/SpringWebConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/config/SpringWebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/config/SpringWebMvcInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/config/SpringWebMvcInitializer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/repository/RoleRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/repository/RoleRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/security/UserDetailsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/security/UserDetailsServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/security/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/bres/siodme/web/security/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Sagiton_7_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Sagiton_7_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Adam.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Adam.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sagiton_7.iml" afterPath="$PROJECT_DIR$/Sagiton_7.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/WEB-INF/view/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/WEB-INF/view/registration.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/WEB-INF/view/registration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/appconfig-mvc.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/appconfig-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/appconfig-root.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/appconfig-root.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/appconfig-security.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/appconfig-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/validation.properties" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/classes/validation.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/view/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/view/registration.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/view/registration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/appconfig-mvc.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/appconfig-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/appconfig-root.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/appconfig-root.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/appconfig-security.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/appconfig-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sagiton_7_war_exploded/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/validation.properties" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/validation.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/view/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/view/registration.jsp" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/view/registration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/appconfig-mvc.xml" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/appconfig-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/appconfig-root.xml" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/appconfig-root.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/appconfig-security.xml" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/appconfig-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/unnamed/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/RootConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/RootConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SecurityConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebMvcInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebMvcInitializer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/RoleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/RoleRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/SecurityServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/SecurityServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserDetailsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserDetailsServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/validation.properties" afterPath="$PROJECT_DIR$/src/main/resources/validation.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LoginControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/LoginControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/validation.properties" afterPath="$PROJECT_DIR$/target/classes/validation.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/admin.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/SecurityService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/SecurityService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/registration.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/registration.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/welcome.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/welcome.jsp" />
     </list>
     <ignored path="Sagiton_4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,38 +84,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpringWebConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java">
+      <file leaf-file-name="registration.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/registration.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2099#2100#0" expanded="true" />
-                <element signature="e#2134#2135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validation.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SecurityConfig.java">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/SecurityServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="93" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1827957">
+              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,38 +147,28 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.0">
-              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/welcome.jsp">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5244957">
-              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin.jsp">
+      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.346153">
-              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/registration.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.961538">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -217,8 +181,8 @@
       <list>
         <option value="HTML File" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -233,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/czwarte/web/security/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/czwarte/web/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/czwarte/config/SpringWebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/czwarte/web/security/UserDetailsServiceImpl.java" />
@@ -242,7 +205,6 @@
         <option value="$PROJECT_DIR$/web/view/errorView.jsp" />
         <option value="$PROJECT_DIR$/.idea/artifacts/Sagiton_5_war_exploded.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/RoleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/servlet3/MyWebInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.sql" />
         <option value="$PROJECT_DIR$/web/view/login.jsp" />
@@ -255,10 +217,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/test-data.sql" />
         <option value="$PROJECT_DIR$/web/resources/theme1/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/web/resources/theme1/css/common.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/SecurityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/MySimpleUrlAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/SecurityServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/RootConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/LoginControllerTest.java" />
@@ -270,20 +230,24 @@
         <option value="$PROJECT_DIR$/web/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebMvcInitializer.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/messages.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/validator/UserValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/validation.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/validator/DuplicateConstraint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/registration.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/admin.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/login.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/Roles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/SecurityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/User.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/registration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -342,7 +306,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="width" value="1612" />
     <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -370,6 +334,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -482,7 +447,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -1551,11 +1515,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JAR Application.spring-web-3.2.13.RELEASE.jar" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginControllerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginControllerTestTwo" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginControllerTestTwo.firstPostTest" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JAR Application.spring-web-3.2.13.RELEASE.jar" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginControllerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginControllerTestTwo" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginControllerTestTwo.firstPostTest" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -1594,6 +1558,8 @@
       <workItem from="1470395608677" duration="108850000" />
       <workItem from="1471470132530" duration="2093000" />
       <workItem from="1471472285989" duration="47730000" />
+      <workItem from="1472154064889" duration="3113000" />
+      <workItem from="1472163069367" duration="17208000" />
     </task>
     <servers />
   </component>
@@ -1630,7 +1596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335518000" />
+    <option name="totallyTimeSpent" value="355839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1642,39 +1608,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
+    <frame x="-8" y="-8" width="1612" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.49481866" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32536522" sideWeight="0.5359897" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.49485862" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50332004" sideWeight="0.51028275" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.49485862" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1846554" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997344" sideWeight="0.49485862" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1846554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4674635" sideWeight="0.48971722" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4687915" sideWeight="0.48971722" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.48714653" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.4974093" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24485861" sideWeight="0.49095023" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24484536" sideWeight="0.49095023" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2093628" sideWeight="0.5090498" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13046272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.49485862" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53519255" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24742931" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24742931" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997344" sideWeight="0.49485862" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.49485862" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1703,7 +1669,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1712,6 +1678,85 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#1803#1804#0" expanded="false" />
+            <element signature="e#1853#1854#0" expanded="false" />
+            <element signature="e#2128#2129#0" expanded="false" />
+            <element signature="e#2182#2183#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/unnamed.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.461538">
@@ -1814,7 +1859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1825,36 +1869,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/SecurityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/MySimpleUrlAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="107" selection-start-line="33" selection-start-column="107" selection-end-line="33" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="3" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#3342#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1870,6 +1888,168 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15349887">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebMvcInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.045454547">
+          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9770114">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5114943">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.698276">
+          <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/MySimpleUrlAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.516129">
+          <caret line="33" column="107" selection-start-line="33" selection-start-column="107" selection-end-line="33" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7607527">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41129032">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59408605">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45698926">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.983871">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding>
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="93" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
           <folding />
         </state>
       </provider>
@@ -1882,154 +2062,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebMvcInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41210374">
-          <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04557641">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5013405">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31903484">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324397">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6380697">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4530831">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17158177">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/web/security/SecurityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SpringWebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2099#2100#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bres/siodme/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.961538">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.346153">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.0">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5244957">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.1827957">
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
           <folding />
         </state>
       </provider>
