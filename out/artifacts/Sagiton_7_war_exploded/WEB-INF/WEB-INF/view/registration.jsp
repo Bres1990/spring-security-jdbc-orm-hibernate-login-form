@@ -42,6 +42,7 @@
         <h2 class="form-signin-heading">Create your account</h2>
         <spring:bind path="username">
             <div class="form-group ${status.error ? 'has-error' : ''}">
+                <span>${message}</span>
                 <form:input type="text" path="username" class="form-control" placeholder="Username"
                             autofocus="true"></form:input>
                 <form:errors path="username"></form:errors>

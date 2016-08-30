@@ -37,11 +37,11 @@ public class UserServiceImpl implements UserService {
      * Admin privileges are awarded by the Admins only
      */
     public void save(User user) throws ConstraintViolationException {
-        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
-        List<Role> list = new ArrayList<>();
-        list.add(roleRepository.findByName("ROLE_USER"));
-        user.setRoles(list);
-        userRepository.save(user);
+            user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+            List<Role> list = new ArrayList<>();
+            list.add(roleRepository.findByName("ROLE_USER"));
+            user.setRoles(list);
+            userRepository.save(user);
     }
 
     @Override
