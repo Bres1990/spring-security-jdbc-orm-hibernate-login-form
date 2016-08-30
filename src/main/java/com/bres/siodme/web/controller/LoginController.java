@@ -24,7 +24,6 @@ import javax.validation.Valid;
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 public class LoginController {
     @Autowired private UserService userService;
-    @Autowired SecurityService securityService;
     @Autowired UserRepository userRepository;
 
     @RequestMapping(value = "/registration", method = RequestMethod.GET)
@@ -74,7 +73,5 @@ public class LoginController {
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
-    public String admin() {
-        return "admin";
-    }
+    public String admin() { return "admin"; }
 }

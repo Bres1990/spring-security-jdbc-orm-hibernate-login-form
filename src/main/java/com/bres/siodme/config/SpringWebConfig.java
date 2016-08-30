@@ -91,7 +91,6 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
         HibernateJpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();
         jpaVendorAdapter.setDatabase(Database.MYSQL);
         jpaVendorAdapter.setShowSql(true);
-        //set dialect
 
         return jpaVendorAdapter;
     }
