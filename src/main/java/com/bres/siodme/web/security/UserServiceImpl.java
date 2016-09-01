@@ -34,7 +34,6 @@ public class UserServiceImpl implements UserService {
     @Transactional
     /**
      * Newly registered users may receive only User Privileges.
-     * Admin privileges are awarded by the Admins only
      */
     public void save(User user) throws ConstraintViolationException {
             user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));

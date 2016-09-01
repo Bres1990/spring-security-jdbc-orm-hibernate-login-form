@@ -2,8 +2,6 @@ package SpringSecurityTest;
 
 import com.bres.siodme.config.SecurityConfig;
 import com.bres.siodme.config.SpringWebConfig;
-import com.bres.siodme.web.repository.UserRepository;
-import com.bres.siodme.web.service.UserService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -34,16 +32,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WebAppConfiguration
 public class AuthenticationTest {
     private MockMvc mvc;
-    @Autowired
-    private WebApplicationContext wac;
-    @Autowired
-    private Filter springSecurityFilterChain;
-    @Autowired
-    private UserDetailsService userDetailsService;
-    @Autowired
-    private UserRepository userRepository;
-    @Autowired
-    private UserService userService;
+    @Autowired private WebApplicationContext wac;
+    @Autowired private Filter springSecurityFilterChain;
+    @Autowired private UserDetailsService userDetailsService;
+
 
     @Before
     public void setup() {

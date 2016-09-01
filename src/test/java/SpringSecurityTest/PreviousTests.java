@@ -35,12 +35,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class PreviousTests {
 
     private MockMvc mvc;
-    @Autowired
-    private WebApplicationContext wac;
-    @Autowired
-    private Filter springSecurityFilterChain;
-    @Autowired
-    private UserDetailsService userDetailsService;
+    @Autowired private WebApplicationContext wac;
+    @Autowired private Filter springSecurityFilterChain;
+    @Autowired private UserDetailsService userDetailsService;
 
     @Before
     public void setup() {

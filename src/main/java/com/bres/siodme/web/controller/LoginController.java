@@ -27,10 +27,10 @@ public class LoginController {
     @Autowired UserRepository userRepository;
 
     @RequestMapping(value = "/registration", method = RequestMethod.GET)
-    public String registration(Model model, @RequestParam(value="usernameOccupied", required=false) String userOcc) {
+    public String registration(Model model, @RequestParam(value="usernameOccupied", required=false) String usernameOccupied) {
         model.addAttribute("userForm", new User());
 
-        if ("1".equals(userOcc))
+        if ("1".equals(usernameOccupied))
             model.addAttribute("message", "The username you have chosen is already taken. Try a different one.");
 
         return "registration";
